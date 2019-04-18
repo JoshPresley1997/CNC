@@ -1,0 +1,33 @@
+TB2 - Terminal Block 2 Connections
+
+1		axis amp fans			31
+2 		axis amp fans			32
+3 		light and recepticle	33 		Lo Range Coil
+4 		light and recepticle 	34		Lo Range Coil
+5								35
+6								36
+7								37
+8 								38	
+9		KFlop Power				39
+10		KFlop Power				40 		Air value in bottom of main cabinet (air blast)
+11
+12
+13		Hi Range Coil
+14 		Hi Range Coil
+15
+16
+17										*E-Stop main loop returns in TB1-10
+18
+19
+20
+21
+22
+23		Coolant 2 
+24		Coolant 2
+25		
+26		E-Stop overload loop out
+27		Flood Coolant
+28		Flood Coolant
+29
+30		E-Stop Overload loop IN
+31		E-Stop main loop OUT

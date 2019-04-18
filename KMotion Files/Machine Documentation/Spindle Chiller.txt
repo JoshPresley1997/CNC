@@ -1,0 +1,16 @@
+Spindle Chiller
+
+Cable # 12
+	- controls ssr to turn chiller on and off
+	- gets 5V from sensor barrier strip.
+	- Konnect output 7 connects black to ground
+
+Cable # 34
+	- coolant temp sensor
+	- Base ground, Red is 5V through 390 ohm resistor
+	- Black is signal. Analog input 4
+
+Cable # 76
+	- Ambient Sensor
+	- Same as above
+	- Black signal to analog 5

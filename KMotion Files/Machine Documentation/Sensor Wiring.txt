@@ -1,0 +1,41 @@
+Sensor Wiring
+
+Cable Number
+J9 -
+1			1 - 0V
+			2 -	Drawbar sensor
+			3 - 5V
+2			10- 0V
+			11- Idler 1 Sensor
+			12- 5V
+
+J10 - Spindle Orientation Signal
+6 			7 - 0V
+			8 - Orientation Signal
+			9 - 5V through resistor(220ohm)
+
+J11 - 
+
+3			4 - 0V
+			5 - Idler 2 Sensor
+			6 - 5V
+4			7 - 0V
+			8 - ATC fault switch * 
+5 			10- 0V
+			11- Waylube Sensor? (goes to pump)
+
+J12 - Toolchanger Sensors
+7			1 - 0V
+			2 - Slide extended sensor signal
+			3 - 5v trough 220ohm resistor
+8			4 - 0V
+			5 - Slide Home Sensor Signal
+			6 - 5V through 220ohm resistor
+9 (no 		7 - 0V
+   label on 8 - Turret Motion 
+   wire)
+
+*closed if turret is out of position 
+-connects to ground (0V)
+
+Note: Above switch is if turret is forced out of postition vertically. Connect to ESTOP

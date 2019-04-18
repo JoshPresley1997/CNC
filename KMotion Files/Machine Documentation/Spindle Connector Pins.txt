@@ -1,0 +1,9 @@
+Spindle Connector Pins
+
+Pin # 			Description
+1				Common Director - SD+SE
+2 				Spindle Reverse - STR
+3 				Spindle Forward - S+F
+4				Common for Speed - S+A
+5				Fault - C
+6 				Speed Signal - IK

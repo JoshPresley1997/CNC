@@ -1,0 +1,22 @@
+Rear Relay Board 1100-2
+
+Relay # (1100-2)		Breakout Board Pin #	Description
+
+k23						8						Value Coil Orientation
+k24						6						Value Coil Drawbar
+k7						3-Middle*				Spindle ON
+k9						3-Right*				Spindle REVERSE
+k21						26						Air through spindle
+k30						7						Spindle Fan
+k19						12						WayLube
+k29						9	
+k12 					10						Turret Motor
+k11 					29						Turret Motor Reverse
+k13						34 						ATC Slide Reverse
+k14						11						ATC	Slide
+
+
+*Spindle on and off pins are in 3 wire connector on bottom of 1100-1 board, CW
+is center pin, CCW is right pin.
+
+-Shorting breakout board pin to ground energises circuit

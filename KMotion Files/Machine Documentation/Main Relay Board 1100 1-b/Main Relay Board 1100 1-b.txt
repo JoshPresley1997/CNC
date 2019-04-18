@@ -1,0 +1,21 @@
+Main Relay Board 1100-1B
+
+Relay #(1100-1)		Breakout board pin #	Description
+k27					5						High Range Value Coil
+k28					3 						
+k15					1						
+k31					2
+k32					4			
+k22					14						coolant 2
+k20					22						E-Stop
+k26 				24						Flood coolant
+k18					30
+k25					32						
+k10					28						Low Range Value Coil
+k16					33
+k8 					31
+k17					13						Air Value in Bottom of Main Cabinet (Air blast)
+
+
+-Shorting breakout board pin to ground energises circuit.
+	

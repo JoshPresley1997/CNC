@@ -1,0 +1,19 @@
+1100-1B (Main relay board)
+
+TB1 Terminal Block 1 connections
+1 - Common, to power supply
+2 - x-axis fault (shorts to ground in e-stop)
+3 - y-axis fault
+4 - z axis fault
+5 - b axis fault
+6 - a axis fault
+7 - spindle fault * 
+8 - axis drive chassis power enable
+9 - axis drive chassis power enable neutral
+10- E-Stop loop IN (second wire feeds other relay board)
+
+
+
+*pin 7 is spindle fault. this pin is used to disable spindle in e-stop and 
+also to detect fault from drive. Normally 10V and goes to 0V when a fault occurs and also goes to 0V 
+when ESTOP button is pushed. Use this pin to monitor for faults or external e-stops in KFLOP
